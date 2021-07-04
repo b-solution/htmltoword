@@ -144,11 +144,6 @@
       <w:pPr>
         <w:ind w:left="{720 * ($ilvl + 1)}" w:hanging="360"/>
       </w:pPr>
-      <xsl:if test="contains($style, 'bullet')">
-        <w:rPr>
-          <w:rFonts w:ascii="Symbol" w:hAnsi="Symbol" w:hint="default"/>
-        </w:rPr>
-      </xsl:if>
     </w:lvl>
   </xsl:template>
 
